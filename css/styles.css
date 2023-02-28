@@ -24,11 +24,15 @@ a {
 }
 
 h1 {
+  font-family: "uniwars", sans-serif;
+  font-style: italic;
   font-size: 30.96;
   text-align: center;
+  margin: auto;
 }
 
 h2 {
+  font-family: "uniwars", sans-serif;
   font-size: 23.02px;
   text-align: center;
 }
