@@ -5,6 +5,7 @@ body {
   max-width: 320px;
   margin: auto;
   background: #130D1B;
+  background-image: url(../img/bg_circles.svg);
   color: #FFF3DE;
   font-size: 16px;
 }
@@ -12,6 +13,14 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+nav {
+  text-align: center;
+}
+
+a {
+  color: #FFF3DE;
 }
 
 h1 {
@@ -23,6 +32,7 @@ h2 {
   font-size: 23.02px;
   text-align: center;
 }
+
 footer {
   background: #130D1B;
   font-size: 7.21px;
