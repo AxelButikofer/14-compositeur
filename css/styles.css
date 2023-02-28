@@ -1,10 +1,26 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: #130D1B;
+  color: #FFF3DE;
+  font-size: 16px;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+h1 {
+  font-size: 30.96;
+  text-align: center;
+}
+
+h2 {
+  font-size: 23.02px;
+  text-align: center;
+}
+footer {
+  background: #130D1B;
+  font-size: 7.21px;
 }
