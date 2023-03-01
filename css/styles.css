@@ -12,14 +12,22 @@ body {
   margin: 40 0 40 0;
 }
 
-img {
+main img,
+header img {
   display: block;
   max-width: 100%;
 }
 
+
 nav {
+  background-color: black;
   text-align: center;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
+
 
 .legende {
   font-size: 8px;
@@ -51,4 +59,23 @@ strong {
 footer {
   background: #130D1B;
   font-size: 7.21px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.affiches {
+  display: flex;
+  flex-direction: row;
+}
+
+.affiches img {
+  padding: 10px;
+}
+
+.al {
+  display: flex;
+  flex-direction: column;
 }
