@@ -36,6 +36,7 @@ header nav {
 a {
   color: #FFF3DE;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:focus {
