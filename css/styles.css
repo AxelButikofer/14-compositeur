@@ -18,6 +18,10 @@ body {
   color: #FFF3DE;
   font-size: 16px;
   font-family: "indivisible", sans-serif;
+}
+
+header,
+main {
   margin: 40 0 40 0;
 }
 
@@ -74,12 +78,13 @@ strong {
 
 main p {
   padding-bottom: 38px;
+  max-width: 321px;
 }
 
 footer {
   background: #130D1B;
   font-size: 7.21px;
-  box-sizing: border-box;
+  padding: 20px;
 }
 
 .legend {
@@ -87,11 +92,6 @@ footer {
   color: #7497AD;
   margin-top: 4px;
   padding-left: 10px;
-}
-
-.box {
-  display: flex;
-  flex-direction: row;
 }
 
 .poster {
