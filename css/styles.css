@@ -1,6 +1,13 @@
 html {
   scroll-behavior: smooth;
 }
+
+main img,
+header img {
+  display: block;
+  max-width: 100%;
+}
+
 body {
   max-width: 320px;
   margin: auto;
@@ -12,12 +19,6 @@ body {
   margin: 40 0 40 0;
 }
 
-main img,
-header img {
-  display: block;
-  max-width: 100%;
-}
-
 nav {
   background-color: #130D1B;
   text-align: center;
@@ -25,22 +26,22 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 20px;
+  padding: 15px;
 }
 
 header {
-  margin-top: 70px;
-}
-
-.legende {
-  font-size: 8px;
-  color: #7497AD;
-  margin-top: 4px;
+  margin-top: 80px;
 }
 
 a {
   color: #FFF3DE;
   text-decoration: none;
+}
+
+hr {
+  border: #FFF3DE solid 2px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 h1 {
@@ -61,9 +62,22 @@ strong {
   font-weight: 700;
   font-style: italic;
 }
+
+main p {
+  padding-bottom: 38px;
+}
+
 footer {
   background: #130D1B;
   font-size: 7.21px;
+  box-sizing: border-box;
+}
+
+.legende {
+  font-size: 8px;
+  color: #7497AD;
+  margin-top: 4px;
+  padding-left: 10px;
 }
 
 .box {
