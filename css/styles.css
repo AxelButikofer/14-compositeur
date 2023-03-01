@@ -108,6 +108,10 @@ footer {
   flex-direction: column;
 }
 
+.alt_text {
+  text-align: end;
+}
+
 .header_img {
   max-width: 220px;
   margin: auto;
