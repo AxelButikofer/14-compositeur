@@ -19,23 +19,24 @@ body {
   margin: 40 0 40 0;
 }
 
-nav {
+header nav {
   background-color: #130D1B;
-  text-align: center;
-  position: absolute;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 15px;
-}
-
-header {
-  margin-top: 80px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
 }
 
 a {
   color: #FFF3DE;
   text-decoration: none;
+}
+
+a:focus {
+  color: #7497AD;
+}
+
+a:active {
+  color: #E43829;
 }
 
 hr {
