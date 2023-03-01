@@ -47,15 +47,19 @@ a:active {
 
 hr {
   border: #FFF3DE solid 2px;
-  padding-left: 60px;
-  padding-right: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0;
+  margin-bottom: 60px;
 }
 
 h1 {
   font-family: "uniwars", sans-serif;
   font-style: italic;
-  font-size: 30.96;
+  font-size: 25px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -68,6 +72,7 @@ h1,
 h2,
 p {
   text-shadow: black 1px 0 10px;
+  line-height: 5,8px;
 }
 
 strong {
@@ -94,9 +99,10 @@ footer {
 
 .legend {
   font-size: 8px;
+  text-align: center;
   color: #7497AD;
   margin-top: 4px;
-  padding-left: 10px;
+  padding-bottom: none;
 }
 
 .poster {
@@ -117,9 +123,16 @@ footer {
   text-align: end;
 }
 
+.al .legend {
+  padding-left: 10px;
+  text-align: start;
+
+}
+
 .header_img {
   max-width: 220px;
   margin: auto;
+  margin-top: 30px;
 }
 .main_img {
   max-width: 160px;
