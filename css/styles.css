@@ -18,16 +18,19 @@ header img {
   max-width: 100%;
 }
 
-
 nav {
-  background-color: black;
+  background-color: #130D1B;
   text-align: center;
   position: absolute;
   position: fixed;
   top: 0;
   left: 0;
+  padding: 20px;
 }
 
+header {
+  margin-top: 70px;
+}
 
 .legende {
   font-size: 8px;
@@ -36,6 +39,7 @@ nav {
 
 a {
   color: #FFF3DE;
+  text-decoration: none;
 }
 
 h1 {
