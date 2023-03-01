@@ -81,6 +81,11 @@ main p {
   max-width: 321px;
 }
 
+iframe {
+  border: none;
+  box-shadow: black 1px 0 10px;
+}
+
 footer {
   background: #130D1B;
   font-size: 7.21px;
