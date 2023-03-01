@@ -82,7 +82,7 @@ footer {
   box-sizing: border-box;
 }
 
-.legende {
+.legend {
   font-size: 8px;
   color: #7497AD;
   margin-top: 4px;
@@ -94,12 +94,12 @@ footer {
   flex-direction: row;
 }
 
-.affiches {
+.poster {
   display: flex;
   flex-direction: row;
 }
 
-.affiches img {
+.poster img {
   margin: 10px;
 }
 
