@@ -14,6 +14,7 @@ body {
   margin: auto;
   background: #130D1B;
   background-image: url(../img/bg_circles.svg);
+  background-repeat: no-repeat;
   color: #FFF3DE;
   font-size: 16px;
   font-family: "indivisible", sans-serif;
@@ -105,4 +106,13 @@ footer {
 .al {
   display: flex;
   flex-direction: column;
+}
+
+.header_img {
+  max-width: 220px;
+  margin: auto;
+}
+.main_img {
+  max-width: 160px;
+  margin: auto;
 }
